@@ -1,0 +1,42 @@
+*{
+    background-color: yellow;
+    margin: 0px;
+}
+body{
+    background-color: burlywood;
+    padding: 5px;
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+}
+input{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    height: 50px;
+    width: 60%;
+}
+button{
+    background-color: blue;
+    cursor: pointer;
+    height: 50px;
+}
+.tags{
+    background-color: burlywood;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.tag{
+    box-sizing: border-box;
+    padding: 20px;
+    border-color: red;
+    width: 30%;
+    margin: 10px;
+    transition: all 0.5s;
+
+}
+.tag:hover{
+    transform: translateY(-10px);
+}
